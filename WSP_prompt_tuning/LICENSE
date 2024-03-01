@@ -2,7 +2,13 @@ MIT License
 
 Copyright (c) Piotr Kawa, Marcin Plata, Michał Czuba, Piotr Szymański, Piotr Syga
 
-This software includes modifications made by Anonymous Authors to the original software licensed under the MIT License. Modified portions of this software are: adding a model equipped with additional prompts to whisper_meso_net.py; adding metadata of dataset splitting; adding prompt_tuning.py for prompt tuning; adding hyparam_tuning.py for hyperparameter tuning; modifying data_utils_SSL.py for loading datasets other than ASVSpoof 2021; and adding uniform_config.yam for hyperparameter configuration.
+This software includes modifications made by Anonymous Authors to the original
+software licensed under the MIT License. Modified portions of this software are:
+adding a model equipped with additional prompts to whisper_meso_net.py; adding
+metadata of dataset splitting; adding prompt_tuning.py for prompt tuning; adding
+hyparam_tuning.py for hyperparameter tuning; modifying data_utils_SSL.py for
+loading datasets other than ASVSpoof 2021; and adding uniform_config.yam for
+hyperparameter configuration.
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
