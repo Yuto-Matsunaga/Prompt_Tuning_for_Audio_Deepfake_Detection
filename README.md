@@ -5,4 +5,4 @@ This work proposed an ADD method using prompt tuning in a plug-in style.It bridg
 ## Repository Configuration
 This repository consists of W2V_prompt_tuning based on the wav2vec-based audio deepfake detection method by Tak Hemlata et al. and WSP_prompt_tuning based on the whisper-based audio deepfake detection method by Piotr Kawa et al.
 
-Note that these repositories are not compatible with the environment.
+Note that the environments of these two repositories are incompatible.
