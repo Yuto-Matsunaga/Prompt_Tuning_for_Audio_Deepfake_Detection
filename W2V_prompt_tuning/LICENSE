@@ -2,7 +2,14 @@ MIT License
 
 Copyright (c) 2022 Hemlata
 
-This software includes modifications made by Anonymous Authors to the original software licensed under the MIT License. Modified portions of this software are to add prompted_wav2vec.py with prompts added to wav2vec model. Add prompt_tuning.py and hyparam_tuning.py with execution code for prompt tuning and hyperparameter tuning. Add metadata that split the dataset. Add loss.py to calculate cross balanced loss. Add adjust_file.ipynb and split_in_the_wild used to create metadata. data_utils_SSL.py was extended to read datasets other than ASVSpoof2021. Add uniform_config.yaml to enter hyperparameters.
+This software includes modifications made by Anonymous Authors to the original 
+software licensed under the MIT License. Modified portions of this software are: 
+adding prompted_wav2vec.py to integrate prompts with wav2vec model; adding 
+prompt_tuning.py for prompt tuning; adding hyparam_tuning.py for hyperparameter 
+tuning; adding metadata of dataset splitting; adding loss.py for the cross balanced
+loss; adding adjust_file.ipynb and split_in_the_wild.ipynb to create metadata; 
+modifyng data_utils_SSL.py to load datasets other than ASVSpoof 2021; and adding
+uniform_config.yaml for hyperparameter configuration.
  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
