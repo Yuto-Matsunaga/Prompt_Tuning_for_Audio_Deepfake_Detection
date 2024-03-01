@@ -1,0 +1,24 @@
+MIT License
+
+Copyright (c) Piotr Kawa, Marcin Plata, Michał Czuba, Piotr Szymański, Piotr Syga
+
+This software includes modifications made by Anonymous Authors to the original software licensed under the MIT License. Modified portions of this software are add model with additional prompt in whisper_meso_net.py. To add metadata that split the dataset. Added prompt_tuning.py and hyparam_tuning.py with execution code for prompt tuning and hyperparameter tuning. To add data_utils_SSL.py to read the datasets. data_utils_SSL.py is Copyright (c) by Tak Hemlata as MIT License. In addition data_utils_SSL.py was extended to read datasets other than ASVSpoof2021. Add uniform_config.yaml to enter hyperparameters.
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
