@@ -1,0 +1,49 @@
+---
+seed: 42
+with_prompt: true
+eval_only: false
+soft_prompt_path:
+# soft_prompt_path: # your pretrained soft prompt path if you continue prompt-tuning
+mlp_path:
+# mlp_path: # your pretrained MLP path if you continure tuning
+target_params:
+- input_prompt
+# - MLP
+n_tokens: 5
+# if you initialize soft-prompt with random value. ex.) [-0.1, 0.1] 
+# if random range is empty, soft-prompt is initialized pretrained first Transformer Encoder weight.
+random_range: 
+epochs: 10
+batch_size: 8 #original
+# batch_size: 4
+n_samples: 100
+lr: 1.0e-05 #original
+# lr: 8.762563239895802e-05
+weight_decay: 5.0e-05 #original
+# weight_decay: 0.0004955863720875695
+loss_type: CBLoss # choices=[CBLoss_w_source, CBLoss, CELoss]
+beta: 0.99 # hypar prameter: beta for Class-Balanced Loss (CBLoss) original
+# beta: 0.999 # hypar prameter: beta for Class-Balanced Loss (CBLoss)
+CEL_weight: # hypar parameter: weights for Cross-Entropy Loss (CELoss)
+- 0.1
+- 0.3
+lr_scheduler_type: cosine
+# over below parameters for preprocessing dataset. 
+# They are the same SSL_Anti-Spoofing (existing SOTA) 's implementation
+algo: 5
+nBands: 5
+minF: 20
+maxF: 8000
+minBW: 100
+maxBW: 1000
+minCoeff: 10
+maxCoeff: 100
+minG: 0
+maxG: 0
+minBiasLinNonLin: 5
+maxBiasLinNonLin: 20
+N_f: 5
+P: 10
+g_sd: 2
+SNRmin: 10
+SNRmax: 40
