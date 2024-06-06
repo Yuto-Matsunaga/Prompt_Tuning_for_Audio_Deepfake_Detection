@@ -2,7 +2,7 @@ MIT License
 
 Copyright (c) 2022 Hemlata
 
-This software includes modifications made by Anonymous Authors to the original 
+This software includes modifications made by Hideyuki Oiso, Yuto Matsunaga, Kazuya Kakizaki, Taiki Miyagawa to the original 
 software licensed under the MIT License. Modified portions of this software are: 
 adding prompted_wav2vec.py to integrate prompts with wav2vec model; adding 
 prompt_tuning.py for prompt tuning; adding hyparam_tuning.py for hyperparameter 
