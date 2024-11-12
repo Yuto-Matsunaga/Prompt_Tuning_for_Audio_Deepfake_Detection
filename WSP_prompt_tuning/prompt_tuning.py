@@ -106,11 +106,11 @@ def eval(config, model):
             dataset_name=config["dataset_name"]
         )
     if config['dataset_name'] in ['HABLA', 'VCC_ENG', 'VCC_FIN', 'VCC_MAN', 'VCC_GER']:
-        eval_set = Dataset_HABLA_VCC_eval(eval_file_eval,eval_label, config["database_dir"],n_samples=config["n_samples"])
+        eval_set = Dataset_HABLA_VCC_eval(eval_file_eval,eval_label, config["database_dir"])
     elif config['dataset_name'] == 'In_The_Wild':
-        eval_set = Dataset_ITW_eval(eval_file_eval,eval_label, config["database_dir"],n_samples=config["n_samples"])
+        eval_set = Dataset_ITW_eval(eval_file_eval,eval_label, config["database_dir"])
     elif config['dataset_name'] == 'LA':
-        eval_set = Dataset_ASVspoof2021_eval(eval_file_eval,eval_label, config["database_dir"],n_samples=config["n_samples"])
+        eval_set = Dataset_ASVspoof2021_eval(eval_file_eval,eval_label, config["database_dir"])
     else:
         raise NotImplementedError
     print('create score file...')
